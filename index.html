@@ -3,7 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Moschino | Minimalist Free HTML Portfolio by WowThemes.net</title>
+    <style>
+      .circular_image {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        overflow: hidden;
+        float: left;
+        margin-top: 40px;
+        margin-left: 0px;
+        /* 
+			  
+  
+			  display:inline-block;
+			  vertical-align:middle;*/
+      }
+      .circular_image img {
+        width: 100%;
+      }
+
+      .mi_descripcion {
+        position: relative;
+        left: 60px;
+        top: 60px;
+        line-height: 1.5;
+      }
+    </style>
+    <title>husna's Page</title>
     <link
       rel="stylesheet"
       href="css/woocommerce-layout.css"
@@ -41,37 +67,6 @@
       type="text/css"
       media="all"
     />
-
-    <style>
-      .circular_image {
-        width: 250px;
-        height: 250px;
-        border-radius: 50%;
-        overflow: hidden;
-        float: left;
-        margin-top: 40px;
-		margin-left: 0px;	
-        /* 
-			
-
-			display:inline-block;
-			vertical-align:middle;*/
-      }
-      .circular_image img {
-        width: 100%;
-      }
-
-      .mi_descripcion {
-		text-align: justify;
-		text-justify: inter-word;
-        position: relative;
-        left: 30px;
-        top: 80px;
-        line-height: 1.5;
-		
-		
-      }
-    </style>
   </head>
   <body
     class="home page page-template page-template-template-portfolio page-template-template-portfolio-php"
@@ -81,9 +76,9 @@
         <header id="masthead" class="site-header">
           <div class="site-branding">
             <h1 class="site-title">
-              <a href="index.html" rel="home">Moschino</a>
+              <a href="index.html" rel="home">husna's Page</a>
             </h1>
-            <h2 class="site-description">Minimalist Portfolio HTML Template</h2>
+            <h2 class="site-description"></h2>
           </div>
           <nav id="site-navigation" class="main-navigation">
             <button class="menu-toggle">Menu</button>
@@ -93,19 +88,16 @@
             <div class="menu-menu-1-container">
               <ul id="menu-menu-1" class="menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="elements.html">Elements</a></li>
+                <li><a href="error.html">About</a></li>
+                <li><a href="error.html">Blog</a></li>
                 <li>
-                  <a href="#">Pages</a>
+                  <a href="#">Projects</a>
                   <ul class="sub-menu">
-                    <li><a href="portfolio-item.html">Portfolio Item</a></li>
-                    <li><a href="blog-single.html">Blog Article</a></li>
-                    <li><a href="shop-single.html">Shop Item</a></li>
+                    <li><a href="portfolio-item.html">Saki peluquería</a></li>
                     <li>
-                      <a href="portfolio-category.html">Portfolio Category</a>
+                      <a href="blog-single.html">Restaurant Management</a>
                     </li>
+                    <li><a href="shop-single.html">Other</a></li>
                   </ul>
                 </li>
                 <li><a href="contact.html">Contact</a></li>
@@ -117,20 +109,27 @@
         <div id="content" class="site-content">
           <div id="primary" class="content-area column full">
             <main id="main" class="site-main">
-				<div class="grid portfoliogrid">
-              <!-- .grid -->
-			  <div>
-					<img class="circular_image" src="https://avatars.githubusercontent.com/u/68696895?v=4"/>
+              <div class="grid portfoliogrid">
+                <img
+                  class="circular_image"
+                  src="https://avatars.githubusercontent.com/u/68696895?v=4"
+                />
 
-				<div class="mi_descripcion">
-					<p>Hi!</p>
-					<p>My name is Husnain and I am a student of computer engineering (also called "Computer Science & Engineering") at 
-						the University of Zaragoza. <br\> I have a great interest in
-						programming, databases and information systems. Have
-						good ability to adapt to all types of environments and contribute <br/>always the best of me.</p>
-				</div>			
-			  </div>
-			</div>
+                <div class="mi_descripcion">
+                  <p>Hi!</p>
+                  <p style="text-align: justify">
+                    My name is Husnain and I am a student of computer
+                    engineering (also called "Computer <br />Science &
+                    Engineering") at the University of Zaragoza. I have a great
+                    interest in <br />programming, databases and information
+                    systems. Have good ability to adapt to all types of <br />
+                    environments and contribute always the best of me.
+                  </p>
+                </div>
+              </div>
+              <!-- .grid -->
+
+              <br />
             </main>
             <!-- #main -->
           </div>
@@ -154,11 +153,8 @@
                 font-size: 46px;
               "
             >
-              Moschino
+              husna's Page
             </h1>
-            <a target="blank" href="https://www.wowthemes.net/"
-              >&copy; Moschino - Free HTML Template by WowThemes.net</a
-            >
           </div>
         </div>
       </footer>
